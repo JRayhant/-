@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with smooth rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  
+  <!-- Subtle inner border -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#34d399" stroke-width="4" stroke-opacity="0.3"/>
+  
+  <!-- Bengali "গ" and Math Symbols Composition -->
+  <g fill="#ffffff">
+    <!-- Stylized Math Pi and Radical Accent in background -->
+    <path d="M 120 180 L 140 240 L 170 120 L 380 120" fill="none" stroke="#34d399" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+    
+    <!-- Central Bengali 'গ' for Gonite -->
+    <text x="256" y="340" font-family="'Hind Siliguri', 'Noto Sans Bengali', sans-serif" font-size="240" font-weight="bold" text-anchor="middle" fill="#ffffff">
+      গ
+    </text>
+    
+    <!-- Golden Sparkle for AI -->
+    <path d="M 370 160 Q 370 200 410 200 Q 370 200 370 240 Q 370 200 330 200 Q 370 200 370 160 Z" fill="#fbbf24"/>
+  </g>
+</svg>

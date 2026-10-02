@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "গণিত গুরু AI — আপনার ব্যক্তিগত AI গণিত শিক্ষক",
+  "short_name": "গণিত গুরু",
+  "description": "একটি আধুনিক ও নির্ভরযোগ্য বাংলা AI গণিত শিক্ষক। ছবি তুলে বা লিখে ধাপে ধাপে ১০০% নির্ভুল সমাধান এবং অফলাইন প্র্যাকটিস।",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#064e3b",
+  "theme_color": "#047857",
+  "lang": "bn",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
